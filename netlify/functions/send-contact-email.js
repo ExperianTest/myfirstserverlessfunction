@@ -2,7 +2,7 @@
 //import sgMail from "sendgrid"
 //const sgMail = require('@sendgrid/mail');
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey('TestTestKey');
 
 exports.handler =  async function() {
 /*
