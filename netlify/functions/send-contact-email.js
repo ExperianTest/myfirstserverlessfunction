@@ -2,7 +2,7 @@
 //import sgMail from "sendgrid"
 //const sgMail = require('@sendgrid/mail');
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey(process.env.NETLIFY_EMAILS_PROVIDER_API_KEY);
 
 exports.handler =  async function() {
 /*
@@ -15,9 +15,9 @@ exports.handler =  async function() {
 */
   const mail_to_send = {
     to: "jankilakshmi@gmail.com",
-    from: 'jakkotni@gmail.com',
-    subject: 'New Entry from Contact Form',
-    html: 'tttttttttttttttttttest',
+    from: 'ulakshminarayana@gmail.com',
+    subject: 'Test Email',
+    html: 'SendGrid testing email',
   };
 
   try{
