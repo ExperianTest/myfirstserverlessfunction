@@ -19,6 +19,10 @@
   "homepage": "https://github.com/ExperianTest/myfirstserverlessfunction#readme",
   "devDependencies": {
     "node-fetch": "^3.3.0"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.3",
+    "sendgrid": "^5.2.3"
   }
-  
 }
