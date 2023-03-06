@@ -15,7 +15,7 @@ exports.handler =  async function() {
 */
   const mail_to_send = {
     to: "jankilakshmi@gmail.com",
-    from: 'ulakshminarayana@gmail.com',
+    from: 'jakkotni@gmail.com',
     subject: 'Test Email',
     html: 'SendGrid testing email',
   };
